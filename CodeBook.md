@@ -11,10 +11,12 @@ This code book describes steps taken to download, read, clean, and transform dat
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Before you start, the "dplyr" package was used extensively to complete this project. So, if trying to recreate the results, ensure that you have the "dplyr" package installed and ready to go by running the folowing code:
+Before you start, the "dplyr" and "data.table" packages were used extensively to complete this project. So, if trying to recreate the results, ensure that you have these packages installed and ready to go by running the folowing code:
 
 ***install_packages("dplyr")***
-***library(dplyr)***
+***library(dplyr)***   
+***install_packages("data.table")***   
+***library(data.table)***   
 
 # Walkthrough of the tasks:
 
