@@ -13,7 +13,7 @@ This code book describes steps taken to download, read, clean, and transform dat
 
 Before you start, the "dplyr" and "data.table" packages were used extensively to complete this project. So, if trying to recreate the results, ensure that you have these packages installed and ready to go by running the folowing code:
 
-***install_packages("dplyr")***
+***install_packages("dplyr")***   
 ***library(dplyr)***   
 ***install_packages("data.table")***   
 ***library(data.table)***   
